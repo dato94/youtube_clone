@@ -15,6 +15,18 @@ const Feed = () => {
           Copyright 2023 JMS Media
         </Typography>
       </Box>
+
+      <Box p={2} sx={{ overflow: "auto", height: "90vh", flex: 2 }}>
+        <Typography variant='h4'
+                    fontStyle="bold"
+                    mb={2}
+                    sx={{ color: "white" }}
+        >
+          New <span style={{ color: "#F31503"}}>videos</span>
+        </Typography>
+
+        <Video />
+      </Box>
     </Stack>
   )
 }
